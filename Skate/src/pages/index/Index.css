@@ -1,0 +1,1308 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
+    width: 100%;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+
+    height: 220px;
+    width: 100%;
+
+    position: fixed;
+    background-color: #FFF;
+}
+
+.D1 {
+    display: flex;
+    flex-direction: column;
+
+    height: 150px;
+    width: 100%;
+}
+
+.A1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 150px;
+    width: 100%;
+}
+
+.Sla1 {
+    display: flex;
+    flex-direction: row;
+
+    height: 150px;
+    width: 250px;
+}
+
+.Sla1 > svg {
+    height: 15px;
+    width: 15px;
+
+    margin: 10px 15px;
+}
+
+.Sla1 > img {
+    position: absolute;
+
+    height: 85px;
+    width: 200px;
+
+    margin: 45px 25px;
+}
+
+.Sla2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 45.5px;
+    width: 490px;
+
+    border-radius: 15px;
+    border: 1px solid #2e2e2e;
+}
+
+.Sla2 > h1 {
+    font-size: 15px;
+    font-family: 'Skate1';
+
+    margin: 0px 15px;
+}
+
+.Sla2 > svg {
+    height: 35px;
+    width: 35px;
+}
+
+.Sla3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 85px;
+    width: 400px;
+
+   margin-right: 15px;
+}
+
+.M1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 40px;
+    width: 133px;
+}
+
+.M1 > svg {
+    height: 25px;
+    width: 25px;
+}
+
+.M1 > h1 {
+    font-size: 13px;
+    font-family: 'Skate1';
+}
+
+.M2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 40px;
+    width: 133px;
+}
+
+.M2 > svg {
+    height: 25px;
+    width: 25px;
+}
+
+.M2 > h1 {
+    font-size: 13px;
+    font-family: 'Skate1';
+}
+
+.M3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 40px;
+    width: 133px;
+}
+
+.M3 > svg {
+    height: 25px;
+    width: 25px;
+}
+
+.M3 > h1 {
+    font-size: 13px;
+    font-family: 'Skate1';
+}
+
+.D2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 70px;
+    width: 100%;
+
+    border: 1px solid #2e2e2e;
+}
+
+.G1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 70px;
+    width: 83.5%;
+}
+
+.G1 > h1 {
+    font-size: 15px;
+    font-family: 'Skate1';
+}
+
+.Secao-00 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 240px;
+
+    height: 3790px;
+    width: 100%;
+}
+
+.S1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 650px;
+
+    margin-bottom: 30px;
+}
+
+.S1 > h1 {
+    font-size: 33px;
+    font-family: 'Skate1';
+
+    margin-bottom: 10px;
+}
+
+.S1 > p {
+    font-size: 15px;
+    font-family: 'Skate1';
+    color: #000;
+}
+
+.S2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1290px;
+    height: 60px;
+
+    margin-bottom: 15px;
+}
+
+.S2 > p {
+    font-size: 15px;
+    font-family: 'Skate1';
+}
+
+.F1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 45.5px;
+    width: 250px;
+
+    border-radius: 15px;
+    border: 1px solid #2e2e2e;
+}
+
+.F1 > h1 {
+    font-size: 15px;
+    font-family: 'Skate1';
+
+    margin: 0px 10px;
+}
+
+.H1 {
+    display: flex;
+    flex-direction: row;
+
+    height: auto;
+    width: 1290px;
+}
+
+.L1 {
+    display: flex;
+    flex-direction: column;
+
+    width: 190px;
+}
+
+.L1 > h1 {
+    font-size: 25px;
+    font-family: 'Skate1';
+
+    margin-bottom: 15px;
+}
+
+.L1 > h2 {
+    font-size: 18px;
+    font-family: 'Skate1';
+
+    margin-bottom: 15px;
+}
+
+.L1 > p {
+    font-size: 15px;
+    font-family: 'Skate1';
+
+    margin-bottom: 5px;
+}
+
+.L2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 1100px;
+    height: auto;
+}
+
+.Z1 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z1 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z1 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z1 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z1 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z2 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z2 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z2 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z2 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z2 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z3 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z3 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z3 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z3 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z3 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z4 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z4 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+.Z4 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z4 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z4 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z5 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z5 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z5 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z5 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z5 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z6 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z6 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z6 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z6 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z6 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z7 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z7 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z7 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z7 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z7 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z8 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z8 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z8 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z8 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z8 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z9 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z9 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+.Z9 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z9 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z9 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z10 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z10 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z10 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z10 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z10 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z11 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z11 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z11 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z11 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z11 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z12 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z12 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+.Z12 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z12 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z12 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z13 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z13 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z13 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z13 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z13 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z14 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z14 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z14 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z14 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z14 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z15 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z15 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z15 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z15 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z15 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z16 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z16 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z16 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z16 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z16 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z17 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z17 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+.Z17 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z17 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z17 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z18 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z18 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z18 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z18 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z18 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z19 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z19 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+
+.Z19 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z19 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z19 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z20 {
+    display: flex;
+    flex-direction: column;
+
+    width: 355px;
+    height: 500px;
+
+    border: 1px solid #c9c9c9;
+    border-radius: 15px;
+}
+
+.Z20 > div {
+    height: 4px;
+    width: 355px;
+
+    background-color: #000;
+}
+
+.Z20 > h1 {
+    font-size: 16px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.Z20 > h2 {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Z20 > p {
+    font-size: 26px;
+    font-family: 'Skate1';
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.Rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 500px;
+    width: 100%;
+
+    background-color: #949db57f;;
+}
+
+.O1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 400px;
+    width: 300px;
+}
+
+.O1 > h1 {
+    font-size: 25px;
+    font-family: 'Skate1';
+
+    margin-bottom: 25px;
+}
+
+.O1 > p {
+    font-size: 15px;
+    font-family: 'Skate1';
+}
+
+.O2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 400px;
+    width: 300px;
+}
+
+.O2 > h1 {
+    font-size: 25px;
+    font-family: 'Skate1';
+
+    margin-bottom: 25px;
+}
+
+.O2 > p {
+    font-size: 15px;
+    font-family: 'Skate1';
+}
+
+.O3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 400px;
+    width: 300px;
+}
+
+.O3 > h1 {
+    font-size: 25px;
+    font-family: 'Skate1';
+
+    margin-bottom: 25px;
+}
+
+.O3 > svg {
+    height: 50px;
+    width: 50px;
+}

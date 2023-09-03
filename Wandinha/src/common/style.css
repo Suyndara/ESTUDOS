@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Fonte1 ';
+    src: url(../assets/fonts/fontawesome-webfont.woff2);
+}
+@font-face {
+    font-family: 'Fonte2';
+    src: url(../assets/fonts/rP2Cp2ywxg089UriASitCBimCw.woff2);
+}
+
+@font-face {
+    font-family: 'Fonte3';
+    src: url(../assets/fonts/rP2Cp2ywxg089UriAWCrCBimCw.woff2);
+}
+
+@font-face {
+    font-family: 'fonte4';
+    src: url(../assets/fonts/rP2Hp2ywxg089UriCZOIHQ.woff2);
+}
+
+@media (max-width: 1920px) {
+    
+    footer {
+        width: 100%;
+        height: auto;
+    }
+
+    .s2-data {
+        margin: 0px 0px 0px 390px;
+        gap: 20px;
+    }
+
+    .s2-season{
+        gap: 20px;
+        position: relative;
+        bottom: 90px;
+    }
+
+    main{
+        height: 913px;
+    }
+}
+
+@media (max-width: 1280px) {
+    
+    footer {
+        width: 100%;
+        height: auto;
+    }
+
+    .s2-data {
+        margin: 0px 0px 0px 0px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+
+    .meiuca{
+        width: 100%;
+    }
+
+    .s2-select{
+        width: 100%;
+    }
+
+    .btn{
+        display: none;
+    }
+    
+    .primeiro {
+        width: 100%;
+        height: 450px;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 0px;
+    }
+
+    .atendimento {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20 px;
+        margin: 0px 60px;
+    }
+
+    .siga{
+        position: relative;
+        top: 30px;
+        right: 290px;
+    }
+    
+    footer{
+        padding: 50px 60px;
+    }
+
+    .texto{
+        width: 150px; 
+    }
+
+    .s1-img{
+        background-size: 90% 70%;
+        background-position: 100% 20%;
+        width: 100%;
+        margin-right: 10px;
+    }
+    
+    .s1-cont{
+        height: 380px;
+        width: 100%;
+    }
+
+    .s2-select > a{
+        width: 80%;
+        align-self: center;
+        padding: 30px 10px;
+    }
+
+    button{
+        width: 350px;
+    }
+
+}  
+
