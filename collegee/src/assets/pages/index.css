@@ -1,0 +1,744 @@
+@font-face {
+    font-family: fonte1;
+    src: url(../../assets/fonts/fonte1.woff2);
+}
+
+@font-face {
+    font-family: fonte2;
+    src: url(../../assets/fonts/fonte2.woff2);
+}
+
+@font-face {
+    font-family: fonte3;
+    src: url(../../assets/fonts/fonte3.woff2);
+}
+
+@font-face {
+    font-family: fonte4;
+    src: url(../../assets/fonts/fonte4.ttf);
+}
+
+@font-face {
+    font-family: fonte5;
+    src: url(../../assets/fonts/fonte5.ttf);
+}
+
+@font-face {
+    font-family: fonte6;
+    src: url(../../assets/fonts/fonte6.ttf);
+}
+
+@font-face {
+    font-family: fonte7;
+    src: url(../../assets/fonts/fonte7.woff2);
+}
+
+@font-face {
+    font-family: fonte8;
+    src: url(../../assets/fonts/fonte8.woff2);
+}
+
+@font-face {
+    font-family: fonte9;
+    src: url(../../assets/fonts/fonte9.woff2);
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+}
+
+section{
+    height: auto;
+    width: 100vw;
+
+    flex-direction: column;
+}
+
+.parte1{
+    flex-direction: column;
+
+    height: auto;
+    width: auto;
+
+    background-image: url(../../assets/images/fundo.png);
+}
+
+.cabecalho{
+    height: 10vh;
+    width: 100vw;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logodc{
+    height: 35px;
+    justify-self: flex-end;
+}
+
+.letras{
+    width: 55vw;
+
+    justify-content: space-evenly;
+}
+
+h1{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+h1 > a{
+    color: white;
+    text-decoration: none;
+}
+
+h1 > a:hover{
+    text-decoration: underline;
+}
+
+.botaoR{
+    border-radius: 20px;
+
+    height: 6vh;
+    width: 90px;
+
+    border: none;
+    box-shadow: black;
+
+    transition: 0.5s;
+}
+
+.botaoR:hover{
+    box-shadow: 0px 10px 30px #0000002f;
+}
+
+.botoes{
+    flex-direction: column;
+
+    height: 18vh;
+    width: 33vw;
+
+    justify-content: space-between; 
+}
+
+#dow{
+   background-image: url("https://assets-global.website-files.com/6257adef93867e50d84d30e2/632d9b371770507a4c801977_Icon%20-%20Download.svg");
+   background-repeat: no-repeat;
+
+   padding: 16px 58px;
+   background-position: 20px;
+}
+
+
+
+.botoes > button{
+    align-self: center;
+
+    border: none;
+    border-radius: 40px;
+
+    color: white;
+    background-color: rgb(34, 34, 34);
+    padding: 15px 40px;
+
+    font-family: fonte3;
+    font-size: 20px;
+
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.botoes > button:hover{
+        -ms-transform: scale(1.03);   
+            transform: scale(1.03);
+
+        box-shadow: 0px 10px 30px #0000002f;
+}
+.lugar{
+    height: 100vh;
+    width: 57vw;
+
+    flex-direction: column;
+}
+
+.lul{
+    flex-direction: column;
+
+    height: 70vh;
+    width: 50vw;
+
+    justify-content: space-evenly;
+    align-self: end;
+}
+
+h2{
+    color: white;
+
+    font-family: fonte4;
+    font-size: 55px;
+    line-height: 57px;
+    width: 430px;
+
+    background-repeat: 10px;
+}
+
+.lul > p{
+    color: white;
+
+    font-family: fonte2;
+    font-size: 20px;
+
+    width: 30vw;
+}
+
+iframe{
+    border-radius: 20px;
+}
+
+.parte2{
+    height: auto;
+    width: 100vw;
+
+    justify-content: center;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+h3{
+    font-size: 40px;
+    font-family: fonte6;
+}
+
+.comunidade{
+    flex-direction: column;
+    
+    height: 50vh;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.comunidade > h3{
+    margin: 30px;
+}
+
+.comunidade > p{
+    font-size: 20px;
+    font-family: fonte2;
+}
+
+.parte3{
+    height: auto;
+    justify-content: center;
+}
+
+.app{
+    height: 60vh;
+    width: 50vw;
+
+    justify-content: end;
+    flex-direction: column;
+}
+
+.appfundo{
+    height: 200vh;
+
+
+    flex-direction: column;
+}
+
+.imag{
+    height: 150vh;
+    width: auto;
+
+    align-items: end;
+}
+
+h4{
+    font-size: 40px;
+    font-family: fonte6;
+
+    margin-bottom: 50px;
+}
+
+.app > p{
+    width: 40vw;
+
+    font-size: 20px;
+    font-family: fonte2;
+}
+
+.containers1{
+    height: 70vh;
+    width: auto;
+}
+
+.tempo{
+    height: 5vh;
+    width: 20vw;
+
+    background-image: url(https://assets-global.website-files.com/6257adef93867e50d84d30e2/6334568b81b7f555edaefb1d_Frame%2014.svg);
+    background-repeat: no-repeat;
+}
+
+.sub1{
+    height: 60vh;
+    width: 20vw;
+
+    margin: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h5{
+    font-size: 30px;
+    font-family: fonte6;
+
+    line-height: 30px;
+}
+
+.mensagens{
+    height: 5vh;
+    width: 20vw;
+
+    background-image: url(../images/msg.svg);
+    background-repeat: no-repeat;
+}
+
+.containers1 > div > p{
+    font-size: 20px;
+    font-family: fonte2;
+}
+.sub2{
+    height: 51vh;
+    width: 20vw;
+
+    margin: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containers2{
+    height: auto;
+    width: auto;
+}
+
+.containers2 > div > p{
+    font-size: 20px;
+    font-family: fonte2;
+}
+
+.sub3{
+    height: 40vh;
+    width: 20vw;
+
+    margin: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub4{
+    height: 40vh;
+    width: 20vw;
+
+    margin: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hashtag{
+    height: 5vh;
+    width: 20vw;
+    background-image: url(../../assets/images/hashtag.svg);
+    background-repeat: no-repeat;
+}
+
+.megafone{
+    height: 5vh;
+    width: 20vw;
+
+    background-image: url(../../assets/images/megafone.svg);
+    background-repeat: no-repeat;
+}
+
+.parte4{
+    height: auto;
+    width: auto;
+
+    flex-direction: column;
+}
+
+.MD{
+    height: 40vh;
+    width: 100vw;
+
+    flex-direction: column;
+    line-height: 90px;
+    align-items: center;
+}
+
+h6{
+    font-size: 45px;
+    font-family: fonte6;
+}
+
+.MD > p{
+    font-size: 20px;
+    font-family: fonte2; 
+
+    padding-left: 68px;
+    align-self: start;
+}
+
+.containerp4{
+    height: 70vh;
+    width: 100vw;
+
+    justify-content: space-evenly;
+}
+
+.quadrado1{
+    height: 50vh;
+    width: 26vw;
+    
+    background-color: rgb(255, 250, 243);
+    border-radius: 20px;
+
+    flex-direction: column;
+
+    font-family: fonte2;
+}
+
+.p2{
+    flex-direction: column;
+    align-items: end;
+
+    padding-top: 20px;
+    height: 7vh;
+    width: auto;
+
+    color: rgb(101, 101, 255);
+}
+
+
+.img1{
+    height: 8vh;
+    width: 30vw;
+
+    background-repeat: no-repeat;
+    background-image: url(https://assets-global.website-files.com/6257adef93867e50d84d30e2/625bcdab2b14691f17d06417_05c47d09998a49fc465d432e69c8a1ee.png);
+    background-size: 40px;
+}
+
+.quadrado2{
+    height: 50vh;
+    width: 26vw;
+    
+    background-color: rgb(255, 250, 243);
+    border-radius: 20px;
+
+    flex-direction: column;
+
+    font-family: fonte2;
+}
+
+
+.img2{
+    height: 8vh;
+    width: 30vw;
+
+    background-repeat: no-repeat;
+    background-image: url(https://assets-global.website-files.com/6257adef93867e50d84d30e2/625bcdaa8b245c6147241166_68db1e4631be4e564e44b9f7d437254e.png);
+    background-size: 40px;
+}
+
+.quadrado3{
+    height: 50vh;
+    width: 26vw;
+    
+    background-color: rgb(255, 250, 243);
+    border-radius: 20px;
+    
+    flex-direction: column;
+
+    font-family: fonte2;
+}
+
+.img3{
+    height: 8vh;
+    width: 30vw;
+
+    background-repeat: no-repeat;
+    background-image: url(https://assets-global.website-files.com/6257adef93867e50d84d30e2/625e7727de5eb1a374e70c88_h%20logo.jpg);
+    background-size: 40px;
+}
+
+h7{
+    font-size: 30px;
+    font-family: fonte6;
+
+    position: absolute;
+    padding-top: 20px;
+}
+
+.parte5{
+    height: 40vh;
+    width: 100vw;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.fundoA{
+    height: 15vh;
+    width: 60vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.botoesB{
+    height: 10vh;
+    width: 60vw;
+
+    justify-content: center;
+}
+
+.botoesB > #A{
+    align-self: center;
+
+    border: none;
+    border-radius: 40px;
+
+    color: white;
+    background-color: rgb(34, 34, 34);
+
+    padding: 15px 60px;
+
+    font-family: fonte3;
+    font-size: 20px;
+
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.botoesB >button:hover{
+    -ms-transform: scale(1.03);   
+    transform: scale(1.03);
+
+    box-shadow: 0px 10px 30px #0000002f;
+}
+
+#A{
+    background-image: url("https://assets-global.website-files.com/6257adef93867e50d84d30e2/632d9b371770507a4c801977_Icon%20-%20Download.svg");
+    background-repeat: no-repeat;
+ 
+    padding: 16px 58px;
+    background-position: 20px;
+ }
+
+.botoesB > #B{
+    align-self: center;
+
+    border: none;
+    border-radius: 40px;
+
+    color: white;
+    background-color: rgb(78, 105, 255);
+
+    padding: 15px 40px;
+
+    font-family: fonte3;
+    font-size: 20px;
+
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.parte6{
+    background-color: #202225;
+    height: 70vh;
+    width: auto;
+}
+
+.LBI{
+    height: 40vh;
+    width: 30vw;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding-left: 13vh;
+    padding-top: 10vh;
+}
+
+h8{
+    font-family: fonte5;
+    font-size: 35px;
+    
+    line-height: 32px;
+    color: rgb(78, 105, 255);
+}
+
+.brasil{
+    padding-top: 20px;
+    margin-bottom: 5vh;
+    
+    font-family: fonte2;
+    color: white;
+}
+
+.imgBR{
+    height: 30px;
+    width: 40px;
+
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-image: url(../images/brasil.png);
+}
+
+.icones{
+    height: 4vh;
+    width: 50px;
+}
+
+.img{
+    height: 20px;
+    width: 20px;
+
+    margin-left: 10px;
+}
+
+.produtos{
+    margin-top: 12vh;
+    height: 20vh;
+    width: 15vw;
+
+    padding-left: 10vh;
+
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h9{
+    color: rgb(78, 105, 255);
+    font-family: fonte9;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+h10 > a{
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family: fonte2;
+}
+
+h10 > a:hover{
+    text-decoration: underline;
+}
+
+.empresa{
+    margin-top: 12vh;
+    height: 24vh;
+    width: 15vw;
+
+    padding-left: 10vh;
+
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Recursos{
+    margin-top: 12vh;
+    height: 50vh;
+    width: 15vw;
+
+    padding-left: 10vh;
+
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Politica{
+    margin-top: 12vh;
+    height: 40vh;
+    width: 25vw;
+
+    padding-left: 10vh;
+
+    align-items: start;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.fundoL{
+    height: 1vh;
+    width: auto;
+    justify-content: center;
+
+    background-color: #202225;
+}
+
+.linha{  
+    height: 1px;
+    width: 89vw;
+    background-color:rgb(78, 105, 255);
+}
+
+.rodape{
+    height: 20vh;
+    background-color: #202225;
+
+    justify-content: space-between;
+}
+
+.imagedisc{
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 18vw;
+}
+
+.rodape > div > img{
+    height: 100px;
+    width: 100px;
+}
+
+.botaoRB{ 
+    border-radius: 20px;
+
+    background-color:rgb(87, 112, 255);
+    color: white;
+
+    height: 6vh;    
+    width: 90px;
+
+    border: none;
+
+    transition: 0.3s;
+}
+
+.botaoRB:hover{
+    -ms-transform: scale(1.02);   
+        transform: scale(1.02);
+}
+
+.botaoRDP{
+    align-items: center;
+
+    height: 14vh;
+    width: 12vw;
+}

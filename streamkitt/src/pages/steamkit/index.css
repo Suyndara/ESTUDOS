@@ -1,0 +1,673 @@
+@font-face {
+    font-family: fonte1;
+    src: url(../../assets/font/fonte1.woff2);
+}
+
+@font-face {
+    font-family: fonte2;
+    src: url(../../assets/font/fonte2.woff2);
+}
+
+@font-face {
+    font-family: fonte3;
+    src: url(../../assets/font/fonte3.woff2);
+}
+
+@font-face {
+    font-family: fonte4;
+    src: url(../../assets/font/fonte4.woff2);
+}
+
+@font-face {
+    font-family: fonte5;
+    src: url(../../assets/font/fonte5.woff2);
+}
+
+@font-face {
+    font-family: fonte6;
+    src: url(../../assets/font/fonte6.woff2);
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.visto{
+    color: green;
+}
+
+.p1{
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+
+    font-size: 20px ;
+    font-family: fonte1;
+}
+
+h1{
+    align-self: center;
+    color: white;
+
+    font-family: fonte1;
+    font-size: 15px;
+}
+
+h2{
+    color: white;
+    margin-left: 100px;
+
+    font-size: 55px;
+    font-family: fonte4;
+}
+
+h1:hover{
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.botaologin{
+    border-radius: 30px;
+    border: none;
+
+    height: 40px;
+    width: 60px;
+
+    align-self: center;
+}
+
+.imgdisc{
+    height: 70px;
+}
+
+section{
+    display: flex;  
+
+    height: auto;
+    width: 100vw;
+    
+    flex-direction: column;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: rgb(84, 95, 255);
+
+    height: 10vh;
+    width: 100vw;
+
+    justify-content: space-evenly;
+
+    font-size: 13px;
+}
+
+.fundostreamkit{
+    display: flex;
+    background-color: rgb(84, 95, 255);
+
+    height: 50vh;
+    
+    justify-content: center;
+    flex-direction: column;
+}
+
+.msgtopo{
+    display: flex;
+    background-color: rgb(84, 95, 255);
+
+    width: 50vw;
+   
+    justify-content: space-evenly;
+}
+
+
+.parte2{
+    display: flex;
+
+    height: 100vh;
+    width: 100vw;
+
+    flex-direction: column;
+}
+
+.p2{
+    display: flex;
+    width: 80vw;
+
+    font-size: 19px;
+    font-family: fonte1;
+
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+h3{
+    margin-top: 100px;
+    margin-left: 100px;
+
+    font-family: fonte2;
+    font-size: 30px;
+}
+
+h4{
+    color: rgb(82, 99, 255);
+
+    font-family: fonte6;
+    font-size: 20px;
+
+    text-align: center;
+}
+
+.quadrados{
+    display: flex;
+
+    height: 60vh;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+.quadrado1{
+    display: flex;
+    flex-direction: column;
+
+
+    height: 30vh;
+    width: 15vw;
+}
+
+.quadrado2{
+    display: flex;
+    flex-direction: column;
+
+
+    height: 30vh;
+    width: 15vw;
+}
+
+.quadrado3
+{
+    display: flex;
+    flex-direction: column;
+
+
+    height: 30vh;
+    width: 15vw;
+}
+
+.quadrado1 > p{
+    font-size: 18px;
+    font-family: fonte1;
+}
+
+.quadrado2 > p{
+    font-size: 18px;
+    font-family: fonte1;
+}
+
+.quadrado3 >p{
+    font-size: 18px;
+    font-family: fonte1;
+}
+
+.APPS{
+    display: flex;
+    
+
+    height: 40vh;
+    margin-top: 200px;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.APPS > h2{
+    font-size: 40px;
+    color: black;
+
+    margin-bottom: 20px;
+}
+
+.APPS > p{
+    width: 81vw;
+
+    font-family: fonte1;
+    font-size: 20px;
+}
+
+.coluna1{
+    display: flex;
+    justify-content: space-evenly;
+
+    height: 80vh;
+
+    margin-bottom: 200px;
+}
+
+.coluna1 > div > img{
+    height: 90px;
+
+    justify-self: center;
+}
+
+.quadra1{
+    display: flex;
+
+    height: 80vh;
+    width: 30vw;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+h5{
+    font-size: 33px;
+    font-family: fonte5;
+}
+
+.p3{
+    font-size: 18px;
+    font-family: fonte1;
+
+    margin-top: 10px;
+}
+
+.p4{
+    margin-top: 10px;
+
+    font-size: 15px;
+    font-family: fonte1;
+
+    margin-bottom: 10px;
+    width: 27vw;
+
+}
+
+.quadra1 > button{
+    border: none;
+    border-radius: 40px;
+
+    background-color: rgb(82, 99, 255);
+    color: white;
+
+    height: 40px;
+    width: 150px;
+}
+
+.linksquadra{
+    display: flex;
+
+    width: 10vw;
+
+    justify-content: space-evenly;
+}
+
+.quadra2{
+    display: flex;
+
+    height: 80vh;
+    width: 30vw;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.botaodisc{
+    border: none;
+    border-radius: 40px;
+
+    background-color: rgb(82, 99, 255);
+    color: white;
+
+    height: 40px;
+    width: 150px;
+
+    font-family: fonte1;
+    margin-bottom: 20px;
+}
+
+.saber{
+    border: none;
+    border-radius: 40px;
+
+    background-color: rgb(82, 99, 255);
+    color: white;
+
+    height: 40px;
+    width: 100px; 
+
+    font-family: fonte1;
+}
+
+.conectar{
+    border: none;
+    border-radius: 40px;
+
+    background-color: rgb(82, 99, 255);
+    color: white;
+
+    height: 38px;
+    width: 160px;
+
+    font-family: fonte1;
+    margin-bottom: 20px;
+}
+
+.coluna2{
+    display: flex;
+    justify-content: space-evenly;
+
+    height: 90vh;
+}
+
+
+.coluna2 > div > img{
+    height: 90px;
+
+    justify-self: center;
+}
+
+.quadra3{
+    display: flex;
+
+    height: 80vh;
+    width: 30vw;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.quadra4{
+    display: flex;
+
+    height: 90vh;
+    width: 30vw;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.quadra4 > img{
+    height: 90px;
+}
+
+.coluna3 > div > img{
+    height: 90px;
+
+    justify-self: center;
+}
+
+.coluna3{
+    display: flex;
+    justify-content: space-evenly;
+
+    height: 80vh;
+
+    margin-top: 200px;
+}
+
+.quadra5{
+    display: flex;
+
+    height: 90vh;
+    width: 30vw;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.quadra6{
+    display: flex;
+
+    height: 100vh;
+    width: 30vw;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.quadra6 > img{
+    height: 90px;
+}
+
+.coluna4{
+    display: flex;
+    margin-left: 170px;
+
+    height: 80vh;
+
+    margin-top: 200px;
+}
+
+.quadra7{
+    display: flex;
+
+    height: 90vh;
+    width: 30vw;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.quadra7 > img{
+    height: 90px;
+}
+
+.fundo{
+    display: flex;
+    background-color: #23272a;  
+
+    height: 60vh;  
+}
+
+
+.imagine{
+    display: flex;
+
+    height: 38vh;
+    width: 36vw;
+
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagine > img{
+
+    height: 30px;
+    width: 30px;
+}
+
+.imagens{
+    display: flex;
+    
+    width: 20vw;
+
+    align-self: flex-start;
+
+    justify-content: end;
+    
+}
+
+.imagens > img{
+    height: 30px;
+    width: 30px;
+}
+
+#insta{
+    width: 50px;
+    margin-left: 10px;
+}
+
+#youtub{
+    align-self: center;
+
+    height: 15px;
+    width: 25px;
+
+    margin-left: 20px;
+}
+
+#face{
+    height: 25px;
+    width: 25px;
+
+    align-self: center;
+    margin-left: 10px;
+}
+
+.imagine > p{
+    color: white;
+} 
+
+h7{
+    color: rgb(82, 99, 255);
+
+    font-size: 30px;
+    font-family: fonte4;
+
+    width: 20vw;
+    
+}
+
+.brasils{
+    display: flex;
+    
+    height: 10vh; 
+    width: 20vw;
+
+    align-self: flex-start;
+    justify-content: end;
+    align-items: center;
+}
+
+.brasils > p{
+    color: white;
+    margin-left: 20px;
+}
+
+.brasils > img{
+    height: 30px;
+    width: 30px;
+}
+
+.letras{
+    display: flex;
+
+    height: 30vh;
+    width: 15vw;
+
+    
+    align-items: flex-start;
+
+    flex-direction: column;
+}
+
+.letras > p{
+    color: white;
+
+    font-family: fonte1;
+    font-size: 15px;
+
+    margin-bottom: 10px;
+}
+
+h8{
+    color: rgb(82, 99, 255);
+
+    margin-top: 90px;
+    margin-bottom: 10px;
+
+    font-family: fonte1;
+    font-size: 17px;
+
+}
+
+footer{
+    display: flex;
+    background-color: #23272a; 
+
+    justify-content: center;
+    height: 10vh;
+}
+
+footer > div > p{
+    color: rgb(82, 99, 255);
+
+}
+
+footer > div{
+    display: flex;
+
+    height: 10vh;
+    width: 85vw;
+}
+
+rodape{
+    display: flex;
+    background-color: #23272a;
+
+    flex-direction: row-reverse;
+    justify-content: end;
+     
+    height: 20vh;
+    width: 100%;
+}
+
+
+rodape > button{
+    display: flex;
+    background-color: rgb(82, 99, 255);
+    color: white;
+
+    border: none;
+    border-radius: 20px;
+
+    height: 40px;
+    width: 90px;
+
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.meio{
+    display: flex;
+
+    height: 10vh;
+    width: 68vw;
+
+    background-color: #23272a;
+}
+
+#b{
+    color: white;
+}
+
+
+button:hover{
+    transition-duration: calc(0.19s);
+    
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.brasils > p:hover{
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.letras > p:hover{
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.linksquadra > a:hover{
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
